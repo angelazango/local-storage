@@ -1,0 +1,51 @@
+/* Body Styling */
+body {
+    font-family: calligraphy;
+    margin: 34px;
+    background-color: rgb(10, 77, 54);
+}
+
+/* Styling for Input with id "student-name" */
+#student-name {
+    background-color: rgb(240, 236, 236);
+    padding: 1px;
+    height: 2rem;
+    width: 27rem;
+    margin-top: 2px;
+    margin-bottom: 16px;
+    border-radius: 0.5rem;
+    border: 1px solid aqua;
+    cursor: pointer;
+}
+
+/* Styling for Inputs with id "student-age" and "student-roll" */
+#student-age,
+#student-roll {
+    background-color: rgb(238, 234, 241);
+    border-radius: 0.5rem;
+    width: 13rem ;
+    height: 1.8rem ;
+    cursor: pointer;
+    border: 1px solid brown;
+}
+
+/* Styling for Button with id "add-student" */
+#add-student {
+    height: 2rem;
+    margin-top: 1.2rem;
+    border-radius: 0.5rem;
+    width: 27rem;
+    background-color: rgb(191, 180, 201);
+    color: rgb(112, 21, 21);
+    cursor: pointer;
+    border: 1px solid blue;
+}
+
+.students {
+    width: 600px;
+    height: 60px;
+    color:rgb(223, 212, 212);
+    font-size: 0.6rem ;
+    border-color: red;
+    text-align: center;
+}
